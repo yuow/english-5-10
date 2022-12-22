@@ -6,17 +6,21 @@ export function ContactInfo() {
         <div className="section-do__connections">
           <div className="section-do__connections-item">
             <img src="icon/phone_icon.svg" alt="" />
-            <p className="section-do__connections-text">Тел:</p>
+            <p className="section-do__connections-text">
+              Тел: +7(999)-999-99-99
+            </p>
             <a href=""></a>
           </div>
           <div className="section-do__connections-item">
             <img src="icon/email_icon.svg" alt="" />
-            <p className="section-do__connections-text">Эл. почта:</p>
+            <p className="section-do__connections-text">
+              Эл. почта: example@example.com
+            </p>
             <a href=""></a>
           </div>
           <div className="section-do__connections-item">
             <img src="icon/vk_icon.svg" alt="" />
-            <p className="section-do__connections-text">VK:</p>
+            <p className="section-do__connections-text">VK: vk.com/1</p>
             <a href=""></a>
           </div>
         </div>

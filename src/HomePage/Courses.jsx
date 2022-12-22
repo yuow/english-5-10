@@ -25,8 +25,7 @@ export function Courses() {
                   className="text descrip"
                   style={{ fontSize: 30, marginTop: 50 }}
                 >
-                  щщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщ
-                  щщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщ
+                  Разница Present Perfect и Past Simple
                 </p>
                 <Link className="btn" to="/course">
                   <span
@@ -42,10 +41,7 @@ export function Courses() {
               <img className="picture" src="icon/Eng.jpg" />
               <div style={{ margin: '56px 0 0 99px' }}>
                 <p className="text course">Курс 2</p>
-                <p className="text descrip">
-                  щщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщ
-                  щщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщщ
-                </p>
+                <p className="text descrip">В разработке</p>
                 <Link className="btn" to="/course">
                   <span
                     className="text"
