@@ -1,0 +1,65 @@
+.color.box {
+  background-color: #8fb0cc;
+  height: 1693px;
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+
+.cont.text {
+  padding-top: 210px;
+  margin-bottom: 111px;
+}
+
+.cont {
+  margin-left: 86px;
+}
+
+.text {
+  font-family: 'Muller';
+  color: inherit;
+}
+
+.text.course {
+  font-size: 50px;
+  margin: 0;
+}
+
+.text.descrip {
+  font-size: 30px;
+  margin-top: 50px;
+  width: 1025px;
+  height: 135px;
+}
+
+.cont.card {
+  border: 3px solid #d9d9d9;
+  height: 480px;
+  width: 1688px;
+  margin-top: 58px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.picture {
+  height: 475px;
+  width: 475px;
+  background-color: #d9d9d9;
+  object-fit: cover;
+}
+
+.btn {
+  display: flex;
+  border: 2px solid #d9d9d9;
+  width: 364px;
+  height: 76px;
+  margin-top: 60px;
+  transition: all 0.3s;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}

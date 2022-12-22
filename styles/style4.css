@@ -1,0 +1,116 @@
+.section-do__container > * {
+  margin: 0;
+}
+
+.section-do {
+  color: white;
+}
+
+.section-do__container {
+  background-color: #8fb0cc;
+  padding-left: 86px;
+  padding-bottom: 180px;
+}
+
+.section-do__header {
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.section-do__connections {
+  margin-top: 124px;
+}
+
+.section-do__connections {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.section-do__connections-item {
+  display: flex;
+  gap: 50px;
+}
+
+.section-do__connections-text {
+  display: block;
+  font-size: 40px;
+  font-weight: 400;
+  margin: auto 0;
+}
+
+.section-do__form {
+  margin-top: 125px;
+  max-width: 903px;
+  min-height: 740px;
+  margin-inline: auto;
+  border: 3px solid #d9d9d9;
+}
+
+.section-do__form-header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 72px;
+}
+
+.section-do__form-text {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-do__form-items {
+  margin-top: 100px;
+  width: 746px;
+  margin-inline: auto;
+}
+
+.section-do__form-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-weight: 400;
+  font-size: 25px;
+  height: 65px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.section-do__form-item:first-child {
+  border-top: 1px solid #d9d9d9;
+}
+
+.form-input {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.form-input:focus-visible {
+  outline: none;
+}
+
+.max {
+  flex-grow: 1;
+}
+
+.form-button {
+  display: block;
+  margin-top: 93px;
+  width: 365px;
+  height: 75px;
+  margin-inline: auto;
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+  border-style: solid;
+  font-size: 30px;
+  font-weight: 300;
+  transition: all 0.3s;
+}
+
+.form-button:hover {
+  color: black;
+  background-color: #fff;
+}
