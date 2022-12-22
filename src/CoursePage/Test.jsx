@@ -151,7 +151,14 @@ export function Test() {
           Время:
           {(() => {
             const arr = getReturnValues(countDownDate);
-            return arr[0] + ':' + arr[1] + ':' + arr[2];
+            return (
+              ' ' +
+              (arr[0] + '').padStart(2, '0') +
+              ':' +
+              (arr[1] + '').padStart(2, '0') +
+              ':' +
+              (arr[2] + '').padStart(2, '0')
+            );
           })()}
         </p>
         <p>

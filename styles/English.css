@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Muller';
-  src: url('fonts/MullerMedium.woff2') format('woff2'),
-    url('fonts/MullerMedium.woff2') format('woff2');
+  src: url('/public/fonts/MullerMedium.woff2') format('woff2'),
+    url('/public/fonts/MullerMedium.woff2') format('woff2');
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: 'Muller';
-  src: url('fonts/MullerRegular.woff2') format('woff2'),
-    url('fonts/MullerRegular.woff') format('woff');
+  src: url('/public/fonts/MullerRegular.woff2') format('woff2'),
+    url('/public/fonts/MullerRegular.woff') format('woff');
   font-display: swap;
   font-weight: normal;
   font-style: normal;
@@ -19,8 +19,8 @@
 
 @font-face {
   font-family: 'Muller';
-  src: url('fonts/MullerBold.woff2') format('woff2'),
-    url('fonts/MullerBold.woff') format('woff');
+  src: url('/public/fonts/MullerBold.woff2') format('woff2'),
+    url('/public/fonts/MullerBold.woff') format('woff');
   font-display: swap;
   font-weight: 700;
   font-style: normal;
@@ -28,8 +28,8 @@
 
 @font-face {
   font-family: 'Muller';
-  src: url('fonts/MullerMedium.woff2') format('woff2'),
-    url('fonts/MullerMedium.woff') format('woff');
+  src: url('/public/fonts/MullerMedium.woff2') format('woff2'),
+    url('/public/fonts/MullerMedium.woff') format('woff');
   font-display: swap;
   font-weight: 500;
   font-style: normal;
